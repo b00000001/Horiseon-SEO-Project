@@ -19,7 +19,6 @@ header {
 header h1 {
 	display: inline-block;
 	font-size: 48px;
-	border: 1px solid green;
 }
 
 header h1 .seo {
