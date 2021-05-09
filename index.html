@@ -12,8 +12,10 @@
 </head>
 
 <body>
+    <!-- changed <div> for header to <header> element -->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <!-- changed <div> for nav section to <nav> element -->
         <nav>
             <ul>
                 <li>
@@ -27,8 +29,12 @@
                 </li>
         </nav>
     </header>
-    <div class="hero"></div>
+    <!-- added <main> semantic element -->
+    <main>
+        <section class='hero'></section>
+    </main>
     <div class="content">
+        <!-- added <section> tags for elements with headers -->
         <section class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
                 alt="Search Engine Optimization" />
@@ -59,38 +65,39 @@
             </p>
         </section>
     </div>
-    <div class="benefits">
-        <aside class="benefit-lead">
+    <aside class="benefits">
+        <!-- added <aside> elements for HTML -->
+        <section class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Inbound strategies for lead generation" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly
                 to your website.
             </p>
-        </aside>
-        <aside class="benefit-brand">
+        </section>
+        <section class="benefit-brand">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="Increase search ranking and visibility" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility
                 for your business.
             </p>
-        </aside>
-        <aside class="benefit-cost">
+        </section>
+        <section class="benefit-cost">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="Cost management for advertising" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer
                 need to advertise your page.
             </p>
-        </aside>
-    </div>
-    <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </footer>
+        </section>
+        </div>
+        <footer class="footer">
+            <h2>Made with ❤️️ by Horiseon</h2>
+            <p>
+                &copy; 2019 Horiseon Social Solution Services, Inc.
+            </p>
+        </footer>
 </body>
 
 </html>
