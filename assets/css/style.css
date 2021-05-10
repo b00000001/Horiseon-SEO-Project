@@ -1,3 +1,5 @@
+/* Css images should be resized to match max height of container (eg: max-heigh: 200px;)
+ */
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -7,7 +9,7 @@
 body {
 	background-color: #d9dcd6;
 }
-
+/* <!-- <header> element added for SEO --> */
 header {
 	padding: 20px;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -24,6 +26,7 @@ header h1 {
 header h1 .seo {
 	color: #d9dcd6;
 }
+/* Changed header div to nav */
 
 header nav {
 	padding-top: 15px;
@@ -45,6 +48,14 @@ header nav ul li {
 a {
 	color: #ffffff;
 	text-decoration: none;
+	display: inline-block;
+}
+/* Gave link a hover state */
+
+a:hover {
+	background-color: #ffffff;
+	color: #2a607c;
+	border-radius: 3px;
 }
 
 p {
@@ -107,9 +118,8 @@ p {
 	max-width: 150px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+/* Changed each article to an article tag then changed the style of it's children*/
+article {
 	margin-bottom: 20px;
 	padding: 50px;
 	height: 300px;
@@ -118,15 +128,11 @@ p {
 	color: #ffffff;
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+article img {
 	max-height: 200px;
 }
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+article h2 {
 	margin-bottom: 20px;
 	font-size: 36px;
 }
