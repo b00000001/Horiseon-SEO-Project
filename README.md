@@ -1,6 +1,8 @@
 # Horiseon-SEO-Project
 
-## Optimization of SEO
+### [Link to app](https://b00000001.github.io/Horiseon-SEO-Project/)
+
+### Optimization of SEO
 
 - This is a refactoring project for the Horiseon-SEO Company. The site as it was had not been optimized for SEO. Using my knowledge, I have combed through the content of the site and optimized images, replaced non semantic elements with semantic elements.
 
